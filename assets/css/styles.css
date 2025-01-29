@@ -1344,3 +1344,11 @@ textarea{
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+.profile-photo {
+    width: 200px;        /* set desired width */
+    height: 200px;       /* set desired height */
+    border-radius: 50%;  /* makes it a circle */
+    object-fit: cover;   
+    
+  }
